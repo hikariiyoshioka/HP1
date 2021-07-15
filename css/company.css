@@ -1,0 +1,86 @@
+@charset "UTF-8";
+.company {
+  width: 100%;
+  display: inline-block;
+}
+.company_inner {
+  margin-top: 150px;
+}
+.company_list {
+  width: 80%;
+  margin: 0 auto 150px;
+}
+
+.company_list li {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.company_list li span {
+  width: 20%;
+  margin-right: 3%;
+  padding: 0 0 30px 20px;
+  border-bottom: 1px solid #444;
+  font-size: 18px;
+}
+.top_inner {
+  background-color: rgb(194, 192, 192);
+}
+.top_inner img {
+  height: 100%;
+  width: 70%;
+  float: right;
+  margin-bottom: 0;
+  z-index: 1;
+  padding-top: 60px;
+}
+.top_inner h1 {
+  z-index: 2;
+  font-size: 40px;
+  
+  position: absolute;
+  top: 200px;
+  left: 150px;
+}
+
+.company_list li p {
+  width: 80%;
+  padding: 0 0 30px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.company_list li p a {
+  color: #ff8856;
+}
+header {
+  height: 60px;
+  position: fixed;
+  z-index: 999;
+}
+.header_all {
+  height: 60px;
+  background-color: rgb(189, 189, 189);
+}
+
+.header_all nav ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+
+.header_all nav ul li {
+  display: table-cell;
+}
+.header_all nav ul li .color {
+  color: #1a1918;
+}
+.header_nav ul li a {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.header_inner nav ul a:hover {
+  opacity: 0.5;
+}
