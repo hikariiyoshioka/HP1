@@ -15,6 +15,8 @@ header {
   width: 100%;
   display: table;
   table-layout: fixed;
+  padding-top: 20px;
+  padding-left: 10%;
 }
 
 .header_all nav ul li {
@@ -169,30 +171,35 @@ header {
   width: 100%;
   margin: 0 5%;
 }
-#service1 {
-  line-height: 1;
-  border: none;
-  background-color: rgb(190, 188, 188);
-}
-.service_item h3 {
-  text-align: center;
-  padding: 40% 2%;
-  color: white;
-  font-size: 50px;
-  line-height: 0.5;
-}
-
-.service small {
-  font-size: 30px;
-}
 .service_item {
   width: 30%;
-  margin: 5%;
+  margin: 5% 5% 10px 5%;
   line-height: 1;
   background-color: rgba(255, 255, 255, 0.8);
   border: 5px solid rgb(190, 188, 188);
   border-radius: 5px;
   justify-content: space-between;
+}
+#service1 {
+  height: 360px;
+  border: none;
+  background-color: rgb(190, 188, 188);
+}
+#service2,
+#service3,
+#service4 {
+  height: 360px;
+}
+.service_item h3 {
+  text-align: center;
+  padding: 40% 0;
+  color: white;
+  font-size: 40px;
+  line-height: 0.5;
+}
+
+.service small {
+  font-size: 30px;
 }
 
 .service_item img {
@@ -217,10 +224,12 @@ header {
 .service_item .btn a {
   background: #76a6ff;
   margin-left: 30%;
+  margin-bottom: -30px;
   padding: 10px;
   color: #fff;
   font-weight: bold;
 }
+/*recruitについて*/
 .recruit {
   display: inline-block;
   position: relative;
